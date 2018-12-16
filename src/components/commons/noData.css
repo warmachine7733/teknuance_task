@@ -1,0 +1,42 @@
+.noDataBlock {
+  padding: 24px 0;
+  margin: 0 auto;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0;
+}
+
+.nodDataScreen {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.nodDataScreen > .circle240 {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  padding: 72px;
+  box-sizing: border-box;
+}
+.nodDataScreen > .circle240 > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.nodataTxt {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.54);
+  margin-top: 8px;
+}

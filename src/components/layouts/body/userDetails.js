@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css'
+import {NoDataComponent} from '../../commons/noData'
 let UserDetails = props => {
   return (
     <div className='card'>
@@ -18,7 +19,7 @@ let UserDetails = props => {
           <div className='description'>{props.userDetails.description}</div>
         </div>
       ) : (
-        <div>noData</div>
+        <div><NoDataComponent/></div>
       )}
     </div>
   )
