@@ -1,0 +1,114 @@
+:root {
+  --navBg: white;
+  --brandingBg: #9eb9dc;
+  --sidenavBrdrBtm: 1px solid rgba(255, 255, 255, 0.12);
+  --sideNavLinkHover: rgba(255, 255, 255, 0.12);
+}
+
+.sideNav {
+  flex-direction: column;
+  z-index: 2;
+  position: fixed;
+  left: 0px;
+  top: 0;
+  bottom: 0;
+  width: 256px;
+  background-color: var(--navBg);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  overflow-y: scroll;
+}
+.header {
+  height: 64px;
+  display: flex;
+  flex: 0 0 auto;
+  background-color: var(--whiteActive);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+  position: fixed;
+  z-index: 10;
+  left: 256px;
+  right: 0;
+}
+.listDisplay {
+  flex-direction: column;
+  z-index: 2;
+  position: fixed;
+  top: 100px;
+  left: 350px;
+  width: 1024px;
+  height: 512px;
+  background-color: white;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+}
+.avatarSmall {
+  display: flex;
+  position: relative;
+  left: 60px;
+  top: 60px;
+}
+.avatarSmall img {
+  border-radius: 50%;
+  height: 100px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.buttonContainer {
+  position: relative;
+  left: 85%;
+  top: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.userDetails {
+  display: flex;
+  position: relative;
+  top: 60px;
+  left: 230px;
+  border: 1px solid black;
+  width: 700px;
+  height: 200px;
+}
+.table {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.deleteBox{
+  color: black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+.deleteBox:hover {
+  opacity: 1;
+}
+.addButton{
+  color: black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+.addButton:active{
+  transform: translateY(4px);
+}
+.addButton:hover {
+  opacity: 1;
+}

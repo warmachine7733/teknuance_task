@@ -1,0 +1,39 @@
+.user {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  width: 90%;
+  border-radius: 4%;
+  cursor: pointer;
+}
+.user:active{
+  background-color:rgb(189, 60, 56);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.people{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    
+  }
+ .people:hover{
+     box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.2);
+ } 
+.user:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.heading {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.sideBarBody {
+  position: relative;
+  top: 0px;
+  left:10px;
+}
+.sideBarHeader {
+  position: relative;
+  top: 0px;
+}
+.deleteBox:active{
+  transform: translateY(4px);
+}
